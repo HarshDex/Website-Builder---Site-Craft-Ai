@@ -3,19 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Craft AI - Website Builder</title>
-    <link rel="stylesheet" href="https://unpkg.com/grapesjs/dist/css/grapes.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>SiteCraft Ai - Website Builder</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="heading animate__animated animate__fadeIn">Site Craft AI</h1>
-    <div id="gjs"></div>
-    <script src="https://unpkg.com/grapesjs"></script>
-    <script src="https://unpkg.com/grapesjs-preset-webpage"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="builder.js"></script>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>SiteCraft</h1>
+                <img src="https://res.cloudinary.com/dqr00bepi/image/upload/v1741688433/pogcgmzxfbtv3qwd0n6u.png" alt="SiteCraft Ai Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#templates">Templates</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Build Your Dream Website Without Coding</h1>
+                <p>Create stunning, responsive websites with our drag-and-drop builder. No technical skills required.</p>
+                <div class="hero-buttons">
+                    <button class="start-btn" id="goToCanvas">Start Building</button>
+                    <button class="demo-btn">Watch Demo</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://res.cloudinary.com/dqr00bepi/image/upload/v1741686365/image_9_1_n1yjjn.jpg" alt="Website Builder Demo">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Drag & Drop Editor</h3>
+                    <p>Easily build your website with our intuitive drag and drop interface.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>All websites look great on any device - desktop, tablet, or mobile.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Fast Loading</h3>
+                    <p>Optimized code ensures your website loads quickly for visitors.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO Friendly</h3>
+                    <p>Built-in tools to help your website rank better in search engines.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Custom Themes</h3>
+                    <p>Choose from hundreds of themes or create your own custom design.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-plug"></i>
+                    <h3>Integrations</h3>
+                    <p>Connect with your favorite tools and services seamlessly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="templates" class="templates">
+            <h2>Beautiful Templates</h2>
+            <p>Start with a professional template and customize it to match your brand</p>
+            <div class="template-slider">
+                <div class="template">
+                    <img src="https://res.cloudinary.com/dqr00bepi/image/upload/v1741686535/DALL_E_2025-03-11_15.18.40_-_A_Business_Template_website_preview_with_a_professional_blue_and_white_theme._It_features_a_corporate-style_homepage_a_clean_navigation_bar_a_servic_rzioyk.webp" alt="Business Template">
+                    <h3>Business</h3>
+                </div>
+                <div class="template">
+                    <img src="https://res.cloudinary.com/dqr00bepi/image/upload/v1741686558/DALL_E_2025-03-11_15.19.05_-_A_Portfolio_Template_website_preview_with_a_clean_minimalist_design._It_showcases_a_grid_of_project_thumbnails_a_personal_bio_section_and_a_modern_e06b9x.webp" alt="Portfolio Template">
+                    <h3>Portfolio</h3>
+                </div>
+                <div class="template">
+                    <img src="https://res.cloudinary.com/dqr00bepi/image/upload/v1741686566/DALL_E_2025-03-11_15.19.17_-_An_E-commerce_Template_website_preview_with_a_modern_and_stylish_design._It_features_a_product_grid_layout_shopping_cart_icon_call-to-action_buttons_atfaxq.webp" alt="E-commerce Template">
+                    <h3>E-commerce</h3>
+                </div>
+                <div class="template">
+                    <img src="https://res.cloudinary.com/dqr00bepi/image/upload/v1741686581/DALL_E_2025-03-11_15.19.27_-_A_Blog_Template_website_preview_with_a_modern_and_clean_layout._It_includes_a_featured_post_section_a_sidebar_with_categories_a_comment_section_and_dtubsk.webp" alt="Blog Template">
+                    <h3>Blog</h3>
+                </div>
+            </div>
+            <button class="view-all-btn">View All Templates</button>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <h2>Simple Pricing</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price">$9<span>/month</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 1 Website</li>
+                        <li><i class="fas fa-check"></i> 5 Pages</li>
+                        <li><i class="fas fa-check"></i> Basic Templates</li>
+                        <li><i class="fas fa-check"></i> 24/7 Support</li>
+                    </ul>
+                    <button>Get Started</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">$19<span>/month</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 5 Websites</li>
+                        <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                        <li><i class="fas fa-check"></i> Premium Templates</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                        <li><i class="fas fa-check"></i> Custom Domain</li>
+                    </ul>
+                    <button>Get Started</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Business</h3>
+                    <div class="price">$49<span>/month</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 20 Websites</li>
+                        <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                        <li><i class="fas fa-check"></i> All Templates</li>
+                        <li><i class="fas fa-check"></i> VIP Support</li>
+                        <li><i class="fas fa-check"></i> E-commerce Features</li>
+                        <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                    </ul>
+                    <button>Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Ready to Build Your Website?</h2>
+            <p>Join thousands of satisfied customers who have created stunning websites with SiteCraft Ai.</p>
+            <button class="cta-btn" id="goToCanvasBottom">Start Building Now</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://via.placeholder.com/50" alt="SiteCraft Ai Logo">
+                <h3>SiteCraft Ai</h3>
+                <p>Create beautiful websites without coding</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Updates</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SiteCraft Ai. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
