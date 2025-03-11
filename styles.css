@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#gjs {
+    height: calc(100vh - 60px);
+}
+
+.gjs-pn-panels {
+    background-color: #1a1a2e;
+}
+
+.gjs-one-bg {
+    background-color: #16213e;
+}
+
+.gjs-two-color {
+    color: #ffffff;
+}
+
+.gjs-four-color {
+    color: #0f3460;
+}
+
+.gjs-pn-btn:hover {
+    background-color: #e94560;
+    color: #fff;
+}
+
+.gjs-block {
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.gjs-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 2.5em;
+    background-color: #16213E;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
